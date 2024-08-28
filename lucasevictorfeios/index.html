@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" <title>
+    </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabeçalho_menu-hamburguer container_imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+            <img src="img/logo.svg" alt="logo do site" class="container_imagem">
+        </div>
+        <div class="container">
+            <a href="#"><img src="img/Favoritos (1).svg" alt="Meus Favoritos" class="container_imagem"></a>
+            <a href="#"><img src="img/pausa.svg" alt="Link para o site de assitit" class="container_imagem"></a>
+            <a href="#"><img src="img/mikey.svg" alt="Ter acesso ao perfil" class="container_imagem"></a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Esta pronto para uma nova historia?</h2>
+        <p class="banner__texto">Encontre em nossa estante um mundo deslumbrante!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual sua proxima aventura?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Classicos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/moana.svg" alt="Filme Moana"></div>
+                <div class="swiper-slide"><img src="img/princesaeosapo.svg" alt="Filme A Princesa e o Sapo"></div>
+                <div class="swiper-slide"><img src="img/pocahontas.svg" alt="Filme Pocahontas"></div>
+                <div class="swiper-slide"><img src="img/ApequenaSereia.svg" alt="Filme A pequena sereia"></div>
+                <div class="swiper-slide"><img src="img/princesaeafera.svg" alt="Filme A Princesa e a Fera"></div>
+                <div class="swiper-slide"><img src="img/Aladdin.svg" alt="Filme Aladdin"></div>
+            </div>
+
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+            <!-- 1º linha -->
+            <div class="card__descrição">
+                <!-- 1º coluna -->
+                <div class="descrição">
+                    <h3 class="descrição__titulo">Onde entrar esse novo mundo?</h3>
+                    <h2 class="descrição__titulo-livro">Disney+</h2>
+                    <P class="descrição__texto">Um lugar onde poderá encontrar essas aventuras e muitas outras.</P>
+                </div>
+                <!-- 2º coluna -->
+                <img src="img/Disneyplus.svg" class="descrição__imagem">
+            </div>
+
+            <!-- 2º linha -->
+            <div class="card__botões">
+                <!-- 1º coluna -->
+                <ul class="botões">
+                    <li class="botões__item"><img src="img/Favoritos (1).svg" alt="Favoritar/destacar"></li>
+                    <li class="botões__item"><img src="img/pausa.svg" alt="Ir para o site de acesso aos filmes"></li>
+                </ul>
+                <!-- 2º coluna -->
+                <a href="#" class="botões__ancora">Saiba mais</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Classicos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/dumbo.svg" alt="Filme Dumbo"></div>
+                <div class="swiper-slide"><img src="img/bambi.svg" alt="Filme Bambi"></div>
+                <div class="swiper-slide"><img src="img/reileão.svg" alt="Filme Rei Leão"></div>
+                <div class="swiper-slide"><img src="img/ocãoearaposa.svg" alt="Filme O Cão e a Raposa"></div>
+                <div class="swiper-slide"><img src="img/adamaeoviralata.svg" alt="Filme A Dama e o Vagabundo"></div>
+                <div class="swiper-slide"><img src="img/nemo.svg" alt="Filme Procurando Nemo"></div>
+            </div>
+
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+            <!-- 1º linha -->
+            <div class="card__descrição">
+                <!-- 1º coluna -->
+                <div class="descrição">
+                    <h3 class="descrição__titulo">Mas quem começou esses novos mundos?</h3>
+                    <h2 class="descrição__titulo-livro">Walt Disney</h2>
+                    <P class="descrição__texto">Fundador da The Walt Disney Company com seu irmão Roy Disney.</P>
+                </div>
+                <!-- 2º coluna -->
+                <img src="img/WaltDisney.svg" class="descrição__imagem">
+            </div>
+
+            <!-- 2º linha -->
+            <div class="card__botões">
+                <!-- 1º coluna -->
+                <ul class="botões">
+                    <li class="botões__item"><img src="img/Favoritos (1).svg" alt="Favoritar/destacar"></li>
+                    <li class="botões__item"><img src="img/pausa.svg" alt="Ir para o site de acesso aos filmes"></li>
+                </ul>
+                <!-- 2º coluna -->
+                <a href="#" class="botões__ancora">Saiba mais</a>
+            </div>
+        </div>
+
+
+        <section class="tópicos">
+            <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+            <ul class="tópicos__lista">
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Android</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Marketing Digital</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Agile</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Startups</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">HTML e CSS</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Python</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">OO</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Java</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="contato">
+            <h2 class="contato__titulo">Fique por dentro de novas historias!</h2>
+            <p class="contato__texto">Atualizações de novas descobertas, aventuras e muito mais.</p>
+            <input type="email" placeholder="Cadastre seu email" class="contato__email">
+        </section>
+
+<hr/>
+
+<footer class="rodapé">
+    <h2 class="rodapé__titulo">Grupo Rafael junto de lucas e Victor</h2>
+</footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets'
+                },
+            });
+        </script>
+</body>
+
+</html>
